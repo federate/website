@@ -1,7 +1,8 @@
 ---
 layout: page
 title: "projects"
-comments: flase
+comments: false
 sharing: false
 footer: true
+sidebar: false
 ---
