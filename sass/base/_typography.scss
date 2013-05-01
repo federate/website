@@ -5,6 +5,7 @@ $mono: Menlo, Monaco, "Andale Mono", "lucida console", "Courier New", monospace 
 $heading-font-family: "PT Serif", "Georgia", "Helvetica Neue", Arial, sans-serif !default;
 $header-title-font-family: $heading-font-family !default;
 $header-subtitle-font-family: $heading-font-family !default;
+$header-color: #B0B0B0 !default;
 
 // Fonts
 .heading {
@@ -15,6 +16,7 @@ $header-subtitle-font-family: $heading-font-family !default;
 .mono { font-family: $mono; }
 
 body > header h1 {
+  color: $header-color;
   font-size: 2.2em;
   @extend .heading;
   font-family: $header-title-font-family;
